@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/fragment_color">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/txtsize_specail_item"
+        android:textColor="@color/textcolor_special_item"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:text="2015年北京海淀基础部分考题,2015年北京海淀基础部分考题2015年北京海淀基础部分考题" />
+
+    <ImageView
+        android:id="@+id/iv_special"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_down" />
+
+</RelativeLayout>

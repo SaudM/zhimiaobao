@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <com.hanzi.zhimianbao.widget.RoundImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ico1"
+            app:borderRadius="6dp"
+            app:type="round" />
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:singleLine="true"
+            android:text="高分语文十个不为人知的秘密"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/txtsize_commend_title1" />
+
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_title"
+            android:layout_alignStart="@+id/tv_title"
+            android:layout_below="@+id/tv_title"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:text="历史语文考题分析：高校名师为你精准定位失分点"
+            android:textColor="@color/textcolor_commend_title2"
+            android:textSize="@dimen/txtsize_commend_title2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignLeft="@+id/tv_desc"
+            android:layout_alignStart="@+id/tv_desc"
+            android:layout_gravity="left|bottom"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_bq" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_gravity="right|bottom"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="词语"
+            android:textColor="@color/textcolor_commend_title3"
+            android:textSize="@dimen/txtsize_commend_title3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:text="常识"
+            android:textColor="@color/textcolor_commend_title3"
+            android:textSize="@dimen/txtsize_commend_title3" />
+
+    </RelativeLayout>
+
+</FrameLayout>

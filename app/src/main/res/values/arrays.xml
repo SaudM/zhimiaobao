@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="indicator_colors">
+        <item>@color/colorPrimary1</item>
+        <item>@color/colorPrimary2</item>
+        <item>@color/colorPrimary3</item>
+        <item>@color/colorPrimary4</item>
+    </array>
+</resources>

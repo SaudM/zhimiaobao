@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:orientation="vertical">
+
+        <github.chenupt.springindicator.viewpager.ScrollerViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:singleLine="true"
+                android:text="这是一段图片的说明的文字" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right"
+                android:layout_weight="2">
+
+                <github.chenupt.springindicator.SpringIndicator
+                    android:id="@+id/indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:siIndicatorColor="@color/colorPrimary"
+                    app:siIndicatorColors="@array/indicator_colors"
+                    app:siRadiusMax="6dp"
+                    app:siRadiusMin="3dp"
+                    app:siSelectedTextColor="@android:color/white"
+                    app:siTextColor="@color/colorPrimaryDark"
+                    app:siTextSize="10sp" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/fragment_color" />
+
+</LinearLayout>

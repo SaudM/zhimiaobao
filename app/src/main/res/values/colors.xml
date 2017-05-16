@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7cc9ff</color>
+    <color name="colorPrimaryDark">#7cc9ff</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--myapp-->
+    <color name="white">#FFFFFFFF</color>
+    <color name="accent">@color/white</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary1">#7cc9ff</color>
+    <color name="colorPrimary2">#7cc9ff</color>
+    <color name="colorPrimary3">#7cc9ff</color>
+    <color name="colorPrimary4">#7cc9ff</color>
+    <color name="fragment_color">#f1f9ff</color>
+    <color name="textcolor_commend_title2">#979797</color>
+    <color name="textcolor_commend_title3">#b7b7b7</color>
+    <color name="textcolor_special_btn">#979797</color>
+    <color name="textcolor_special_item">#555555</color>
+
+</resources>

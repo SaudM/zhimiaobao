@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">纸面包</string>
+
+    <string name="app_tab_1">推荐</string>
+    <string name="app_tab_2">专题</string>
+    <string name="app_tab_3">测试</string>
+    <string name="app_tab_4">我</string>
+</resources>
